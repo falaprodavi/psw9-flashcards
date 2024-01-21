@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-o8d=6ssq1x4!n$-!h6t(!(bt1yiv_m!*+3u5%lz^2zo3v8ofc4
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['psw9-flashcards-production.up.railway.app']
+ALLOWED_HOSTS = ['psw9-flashcards-production.up.railway.app', '127.0.0.1']
 
 
 # Application definition
@@ -157,5 +157,5 @@ MESSAGE_TAGS = {
     constants.WARNING: 'alert-warning',
 }
 
-CSRF_TRUSTED_ORIGINS = ['https://psw9-flashcards-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://psw9-flashcards-production.up.railway.app/', 'https://*.railway.app']
 
