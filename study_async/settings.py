@@ -157,3 +157,5 @@ MESSAGE_TAGS = {
     constants.WARNING: 'alert-warning',
 }
 
+CSRF_TRUSTED_ORIGINS = ['https://psw9-flashcards-production.up.railway.app/']
+
