@@ -25,7 +25,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-o8d=6ssq1x4!n$-!h6t(!(bt1yiv_m!*+3u5%lz^2zo3v8ofc4'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['psw9-flashcards-production.up.railway.app', '127.0.0.1']
 
@@ -33,8 +33,7 @@ ALLOWED_HOSTS = ['psw9-flashcards-production.up.railway.app', '127.0.0.1']
 # Application definition
 
 INSTALLED_APPS = [
-    #'admin_soft.apps.AdminSoftDashboardConfig',   # <-- NEW
-    #'admin_argon.apps.AdminArgonConfig',
+    #'admin_soft.apps.AdminSoftDashboardConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
